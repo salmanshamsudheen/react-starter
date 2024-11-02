@@ -1,0 +1,37 @@
+
+.Container-1 {
+    display: flex;
+    justify-content: space-between;
+    grid-gap: 35px;
+    }
+ 
+    .input1 {
+      flex: 1;
+    }
+.input {
+    background-color: white;
+    border: solid grey 1px;
+    padding: 27px 19px;
+    width: -webkit-fill-available
+  }
+  .button {
+    flex: 1;
+    padding: 12px;
+  background-color: rgb(21, 97, 228);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-gap: 8px;
+  height: fit-content
+  }
+  .validation {
+    color: red;
+    padding-left: 20px;
+    line-height: 0px;
+
+  }
+  .button1{
+    display: flex;
+    align-items: center;
+    grid-gap: 10px;
+  }

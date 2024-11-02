@@ -1,0 +1,46 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, .5);
+
+}
+.modal-container {
+    position: fixed;
+    top: 30%;
+    left: 36%;
+    background-color: white;
+    z-index: 1001;
+    padding: 45px 70px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 15px;
+}
+.yesNo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 10px;
+
+}
+.editInput {
+    padding: 13px;
+    border-radius: 7px;
+    text-align: center;
+}
+.modal-container input {
+    width: fit-content;
+}
+
+.validation1 {
+    color: red;
+    padding-left: 20px;
+    line-height: 0px;
+
+  }
